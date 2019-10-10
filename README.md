@@ -3,7 +3,7 @@
 ```php
 
 function removeUrl($txt){
-		return str_replace("http://reidco.lc", "", $txt);
+		return str_replace("http://dominio.lc", "", $txt);
 	}
 
 	function resize($filePath,$maxWidth,$maxHeight){
